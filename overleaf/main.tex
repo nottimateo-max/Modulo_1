@@ -1,0 +1,158 @@
+% a mashup of hipstercv, friggeri and twenty cv
+
+\documentclass[lighthipster]{simplehipstercv}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+\title{CV}
+\author{}
+\date{}
+
+\pagestyle{empty}
+\begin{document}
+
+\thispagestyle{empty}
+
+\section*{Inicio}
+
+\simpleheader{headercolour}{Mateo}{Notti}{Estudiante de Ingeniería Industrial}{white}
+
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+
+\paracolbackgroundoptions
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+\begin{center}
+    \roundpic{notti.jpg.jpeg}
+\end{center}
+
+\bg{cvgreen}{white}{Sobre mí}\\[0.5em]
+
+{\footnotesize
+Soy estudiante de Ingeniería Industrial cursando el tercer año de la carrera. Me destaco por mi responsabilidad, organización y capacidad de adaptación a nuevos entornos. Gracias a mi formación secundaria con orientación contable, desarrollé una base sólida en contabilidad y economía, lo que me permitió adquirir experiencia laboral en el área. Busco seguir desarrollándome profesionalmente y adquirir nuevas habilidades en distintos ámbitos.}
+\bigskip
+
+\bg{cvgreen}{white}{Datos personales} \\[0.5em]
+Mateo Notti
+
+Nacionalidad: Argentino 
+
+24/02/2005
+
+Mendoza, Argentina
+
+\bigskip
+
+\bg{cvgreen}{white}{Áreas de especialización} \\[0.5em]
+
+Contabilidad ~•~ Economía ~•~ Administración ~•~ Atención al cliente
+
+\bigskip
+
+\bg{cvgreen}{white}{Intereses}\\[0.5em]
+
+Música ~•~ Actividades al aire libre ~•~ Trekking
+\bigskip
+
+\bg{cvgreen}{white}{Habilidades}\\[0.5em]
+
+\texttt{MATLAB} ~/~ \texttt{Excel} ~/~ \texttt{Contabilidad}
+
+\texttt{Administración} ~/~ \texttt{Atención al cliente}
+
+\vspace{4em}
+
+\infobubble{\faAt}{cvgreen}{white}{nottimateo@gmail.com}
+\infobubble{\faGithub}{cvgreen}{white}{mateonotti}
+
+\phantom{turn the page}
+\phantom{turn the page}
+}
+
+\switchcolumn
+
+\small
+\section*{Resumen}
+
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2022--2025}{Secretario}{Estudio Contable Nora Tapia}{Mendoza \color{cvred}}{Realización de tareas contables como liquidación de sueldos e impuestos, conciliaciones bancarias, cobros, declaraciones juradas y trámites administrativos.}{}
+    \\
+    \cvevent{2025--2026}{Rental and Retail}{Vail Resorts}{Stowe, Vermont, EE.UU. \color{cvred}}{Venta de productos de ski y vestimenta, alquiler de equipos y atención constante al cliente en un entorno internacional.}{}
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Educación}
+\begin{tabular}{r p{0.6\textwidth} c}
+    \cvdegree{2022}{Perito Mercantil}{Secundario}{Instituto Leonardo Murialdo}{}{}
+    \\
+    \cvdegree{2023}{Inglés}{Certificación}{Instituto Amicana}{}{}
+    \\
+    \cvdegree{Actualidad}{Ingeniería Industrial}{En curso}{Universidad}{}{}
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Habilidades técnicas}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{MATLAB} &  \barrule{0.5}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{Excel} & \barrule{0.6}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{Contabilidad} & \barrule{0.7}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{Administración} & \barrule{0.6}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{Atención al cliente} & \barrule{0.8}{0.5em}{cvpurple} \\
+\end{tabular}
+\end{minipage}
+
+\section*{Experiencia}
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2022--2025}{Secretario}{Estudio Contable Nora Tapia}{Mendoza \color{cvred}}{Experiencia en tareas administrativas y contables completas.}{}
+    \\
+    \cvevent{2025--2026}{Rental and Retail}{Vail Resorts}{Estados Unidos \color{cvred}}{Experiencia internacional en atención al cliente y ventas.}{}
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Certificados}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+    2019 & Modelo ONU - Brasil (DDHH) \\
+    2021 & Primer escolta papal \\
+    2022 & Mejor delegación Modelo ONU (Rusia) \\
+    2022 & Segunda escolta provincial
+\end{tabular}
+\bigskip
+
+\section*{Idiomas}
+\begin{tabular}{l | ll}
+\textbf{Español} & Nativo & {\phantom{x}\footnotesize lengua materna} \\
+\textbf{Inglés} & B2-C1 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
+\end{tabular}
+\bigskip
+
+\end{minipage}
+
+\vfill{}
+
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Mateo Notti \icon{\faEnvelopeO}{cvgreen}{} nottimateo@gmail.com \icon{\faMapMarker}{cvgreen}{} Mendoza, Argentina \icon{\faPhone}{cvgreen}{} 2613678195 \newline\icon{\faAt}{cvgreen}{} \protect\url{github.com/mateonotti}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
