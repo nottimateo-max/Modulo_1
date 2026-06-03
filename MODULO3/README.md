@@ -3,7 +3,7 @@
 
 ## Grupo Los Pookies
 - Facundo Dip: https://github.com/facudip86/Entrega_M-dulo_3
-- Francisco Allamand: 
+- Francisco Allamand:  https://github.com/franallamand/Modulo3
 - Pedro Elizalde: https://github.com/pedroelizalde05/modulo3
 - Mateo Notti: https://github.com/nottimateo-max/MODULO3.git
 
