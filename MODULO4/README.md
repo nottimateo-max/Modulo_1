@@ -2,9 +2,9 @@
 <img width="1408" height="768" alt="Gemini_Generated_Image_4bdft84bdft84bdf" src="https://github.com/user-attachments/assets/cdbc88cc-d705-47a7-8bff-163332221a74" />
 
 ## Grupo Los Pookies
-- Facundo Dip: 
-- Francisco Allamand: 
-- Pedro Elizalde: 
+- Facundo Dip: https://github.com/facudip86/Entrega_Modulo_4.git
+- Francisco Allamand: https://github.com/franallamand/Modulo4.git
+- Pedro Elizalde: https://github.com/pedroelizalde05/modulo4.git
 - Mateo Notti: https://github.com/nottimateo-max/MODULO4.git
 
 Nombre y Apellido | Dirección de mail | Número de teléfono |
